@@ -5,7 +5,7 @@ import org.greenrobot.greendao.annotation.Generated;
 import org.greenrobot.greendao.annotation.Id;
 import org.greenrobot.greendao.annotation.Property;
 
-@Entity(nameInDb = "Word")
+@Entity(nameInDb = "Dictionary")
 public class WordItem {
 
     @Id @Property(nameInDb = "_id")
