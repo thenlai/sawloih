@@ -40,7 +40,10 @@ public class WordItemDBModel {
 
     public List<WordItem> queryAll(String keyword){
         QueryBuilder<WordItem> qb = wordItemDao.queryBuilder();
-        return qb.where(WordItemDao.Properties.Word.eq(keyword)).orderDesc(WordItemDao.Properties.Word).list();
+        return qb
+                .where(WordItemDao.Properties.Word.eq(keyword))
+                //.orderDesc(WordItemDao.Properties.Word)
+                .list();
     }
 
 
