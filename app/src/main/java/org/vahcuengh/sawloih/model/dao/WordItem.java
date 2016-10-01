@@ -13,11 +13,12 @@ public class WordItem {
     private String word;
     private String desc;
 
-    @Generated
-    WordItem() {}
+    @Generated(hash = 1382998129)
+    public WordItem() {
+    }
 
-    @Generated
-    WordItem(Long id, String word, String desc) {
+    @Generated(hash = 1112093310)
+    public WordItem(Long id, String word, String desc) {
         this.id = id;
         this.word = word;
         this.desc = desc;
