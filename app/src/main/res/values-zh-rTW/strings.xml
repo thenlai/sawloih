@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">壯漢詞典</string>
+
+    <string name="cd__clear">清除</string>
+    <string name="sev__hint_keyword">請輸入關鍵詞</string>
+    <string name="app_fullname">壯漢詞典</string>
+</resources>
